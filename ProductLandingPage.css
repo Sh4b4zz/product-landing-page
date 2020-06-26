@@ -1,0 +1,287 @@
+body{
+  margin:0;
+  padding:0px 50px;
+  display: block;
+  background-color: #f9e4b7;
+}
+
+h1{
+  font-size:40px;
+}
+
+.features{
+  margin-left:-430px;
+  padding:0px;
+
+}
+
+.features h2{
+  display: flex;
+  margin-left: 500px;
+  
+}
+
+.features p{
+  display: flex;
+  margin-left: 500px;
+ 
+  
+}
+
+.features img{
+   margin-bottom: -120px;
+   margin-left: 430px;
+  
+}
+
+nav{ 
+  position: sticky; 
+  padding: 5px 0px;
+  margin:0px;
+  height:50px;
+  top: 0; 
+  background-color: #33cc66;
+  border: 1px solid black; 
+  } 
+  
+  img{ 
+  padding:10px 0;
+  height:150px; 
+  width:50px; 
+  } 
+
+  #email{
+    margin:5px;
+    width:200px;
+  }
+
+  #submit{
+    margin:5px;
+  }
+  
+  ul{ 
+  display:flex; 
+  float: right;
+  list-style-type: none; 
+  } 
+  
+  a{ 
+  margin:0;
+  padding:20px 20px; 
+  font-weight: 700;
+  text-decoration: none; 
+  color:black; 
+  border: 0.2px solid black;
+  } 
+
+  nav:hover{
+    transform: scaleX(1.1);
+  }
+
+  a:hover{
+    background-color:#f9e4b7;
+
+  }
+  
+  #veggies{
+   width:100%;
+   height:300px;
+  }
+  
+  video{ 
+  width:100%;
+  height:300px;
+  } 
+  
+
+  h1{ 
+  text-align:center; 
+  } 
+  
+  form{ 
+  text-align:center; 
+  } 
+  
+  h2{ 
+  text-align:center; 
+  } 
+  
+  p{ 
+  text-align:center; 
+  }
+  
+  #indian-farm{
+  width:100%;
+  height:300px;
+  }
+  
+  #price1{
+  margin:100px 0px;
+  padding:0px;
+  display:block;
+  border:5px solid black;
+  text-align:center;
+  }
+  
+  .pricetop{
+  margin:0;
+  padding:0;
+  border:1px solid black;
+  background-color: #33cc66;
+  }
+  
+  #buynow1{
+  width:100px;
+  margin:20px 0px;
+  }
+  
+  #price2{
+  margin:100px 0px;
+  padding:0px;
+  display:block;
+  border:5px solid black;
+  text-align:center;
+  }
+  
+  .pricetop2{
+  margin:0;
+  padding:0;
+  border:1px solid black;
+  background-color: #33cc66;
+  }
+  
+  #buynow2{
+  width:100px;
+  margin:20px 0px;
+  }
+  
+  #price3{
+  margin:100px 0px;
+  padding:0px;
+  display:block;
+  border:5px solid black;
+  text-align:center;
+  }
+  
+  .pricetop3{
+  margin:0;
+  padding:0;
+  border:1px solid black;
+  background-color: #33cc66;
+  }
+  
+  #buynow3{
+  width:100px;
+  margin:20px 0px;
+  }
+  
+  footer{
+  display: flex;
+  background-color: #33cc66;
+  text-align: right;
+  }
+  
+  footer p {
+  margin:20px auto;
+  padding:0 auto;
+  }
+
+  .price-container{
+    margin:0 auto;
+    padding: 0 auto;
+    display:flex;
+    flex-direction: column;
+
+  }
+
+  @media only screen and (min-width:1200px) {
+    
+    body{
+      margin:0;
+      padding:0 50px;
+    }
+
+    .features{
+      margin-left:-500px;
+      
+    }
+  
+  }
+
+  @media only screen and (min-width:1024px) {
+    
+    body{
+      margin:0;
+      padding:50px;
+    }
+
+    nav{
+      margin: 0;
+      padding: 0;
+    }
+
+    .features{
+      margin-left:-150px;
+      padding:0 50px;
+      
+    }
+  
+  }
+
+  @media only screen and (min-width:768px) {
+    
+    body{
+      margin:0;
+      padding:0 50px;
+    }
+    
+    .features{
+      margin-right:-400px;
+      padding:0 50px;
+    }
+  }
+
+  @media only screen and (min-width:767px) {
+    
+    body{
+      margin:0;
+      padding:0 50px;
+    }
+    
+    .features{
+      margin-right:-400px;
+      padding:0 50px;
+     }
+
+     .price-container{
+      flex-direction: row;
+     }
+
+     #price1{
+       padding:50px;
+       margin:50px;
+     }
+
+     #price2{
+      padding:50px;
+      margin:50px;
+    }
+
+    #price3{
+      padding:50px;
+      margin:50px;
+    }
+
+  }
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
